@@ -4,6 +4,10 @@ const port = 3000;
 
 app.get("/", (req, res) => {
   res.send("Hello World!");
+  function name() {
+    console.log("hello saket");
+  }
+  name();
 });
 
 app.listen(port, () => {
